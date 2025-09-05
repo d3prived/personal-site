@@ -8,8 +8,6 @@ export const GLOBAL = {
   longDescription: `<br><ul>
     <li>✨ Diverse skillset: Frontend, Backend, DevOps, Large Language Models, Mobile Apps, Desktop Apps.</li>
     <br>
-    <li>🧠 Hard worker and manic for innovation.</li>
-    <br>
     <li>👩‍💻 Go and TypeScript enjoyer. 
     </ul>`,
 
