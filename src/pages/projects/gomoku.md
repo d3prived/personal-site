@@ -13,13 +13,15 @@ filename: gomoku
 
 ![](/gomoku_peek.gif)
 
-<br>
-
-## Architecture
-
-![Architecture diagram](/gomoku_arch.svg)
-
 ## Technologies used:
 
 - [React](https://reactjs.org/)
-- [Gin Framework](https://gin-gonic.com/)
+- [Gin Framework (Go)](https://gin-gonic.com/)
+
+## How it works
+
+- I split the 10x10 board into 36 smaller boards- each having dimension 5x5.
+- Run min-max algorithm on each of the smaller boards concurrently.
+- Compare the scores of each smaller board and choose the board that gives the AI the highest chance of winning.
+
+![Architecture diagram](/gomoku_arch.svg)

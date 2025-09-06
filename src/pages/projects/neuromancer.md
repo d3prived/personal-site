@@ -12,11 +12,9 @@ filename: neuromancer
 
 <div align="center">
 
-# Neuromancer
+## 3D Convolutional Neural Network Visualilzer
 
-#### 3d Convolutional Neural Network Visualilzer
-
-![Preview video](/neuromancer_peek.gif)
+<img src="/neuromancer_peek.gif" alt="Preview GIF"/>
 
 </div>
 
@@ -28,10 +26,22 @@ filename: neuromancer
 
 ## How it works
 
-- I run a neural network in a seperate webworker using [ONNX Web Runtime](https://onnxruntime.ai/docs/tutorials/web/).
+- I run a neural network in a seperate webworker using [ONNX Web Runtime](https://onnxruntime.ai/.docs/tutorials/web/).
 - Before painting each frame, extract values from the network and render them into 3d with three.js.
 
-<img src="/neuromancer.workflow.svg"/>
+<div align="center">
+  <img src="/neuromancer.workflow.svg"  alt="How it works"/>
+</div>
+
+This dual-thread architecture is also reflected in the arrangement of `src/` directory:
+
+<pre>
+./src
+├── onnx
+├── ui
+├── bridge.ts
+└── main.ts
+</pre>
 
 ## Models
 
@@ -43,6 +53,7 @@ filename: neuromancer
 - [These YouTube Videos](https://www.youtube.com/playlist?list=PLYLFPRdcr4f3uq4ji1JgXTt0gITCitG45)
 - [Netron](https://github.com/lutzroeder/netron)
 - [Transformer Explainer](https://github.com/poloclub/transformer-explainer)
+- [ONNX Runtime Web Demo](https://github.com/microsoft/onnxruntime-web-demo)
 
 ## Stuff I learned on this project
 
@@ -59,7 +70,7 @@ filename: neuromancer
 
 - **Vite deepdive:** Vite is a super awesome bundler that comes with a ton of quality of life features for great developer experience.
   I learned about things such as:
-  - Importing files as webworkers!,
+  - Importing files as webworkers!.
   - Code-splitting with dynamic import- great for reducing initial load times.
   - You can even write custom middleware for the vite development server!! I used this feature to ship .wasm files during development.
 
