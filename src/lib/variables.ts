@@ -3,12 +3,16 @@
 export const GLOBAL = {
   // Site metadata
   username: "Rudro",
+  handle: "rudrOwO",
   rootUrl: "https://rudro.me",
-  shortDescription: "Developer | Innovator",
-  longDescription: `<br><ul>
-    <li>✨ Diverse skillset: Frontend, Backend, DevOps, Large Language Models, Mobile Apps, Desktop Apps.</li>
-    <br>
-    <li>👩‍💻 Go and TypeScript enjoyer. 
+  shortDescription: "Fullstack Developer based in Dhaka, Bangladesh",
+  longDescription: `<br>
+    <ul>
+      <li>✨ <s>Developer</s> Conjurer with diverse skillset.</li>
+      <br>
+      <li>🧙 Frontend, Backend, DevOps, Large Language Models, Mobile & Desktop Apps, 3D Graphics, WebAssembly.</li>
+      <br>
+      <li>🤝 Go and TypeScript enjoyer.</li>
     </ul>`,
 
   // Social media links
@@ -38,7 +42,7 @@ export const GLOBAL = {
     "All of my projects, including both frontend and full-stack applications.",
 
   // Profile image
-  // profileImage: "",
+  profileImage: "dp.png",
 
   // Menu items
   menu: {
