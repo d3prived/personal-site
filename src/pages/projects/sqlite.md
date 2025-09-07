@@ -2,7 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: SQLite Clone
 description: SQLite clone built with Go's awesome concurrency model.
-tags: ["Go", "SQLite", "Concurrency", "B-Trees"]
+tags: ["Go", "Concurrency", "B-Trees"]
 githubUrl: https://github.com/rudrowo/codecrafters-sqlite
 timestamp: 2024-11-24T02:39:03+00:00
 featured: false
