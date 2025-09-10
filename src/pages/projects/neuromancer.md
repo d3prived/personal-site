@@ -2,7 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: Neuromancer
 description: Real-time 3d Convolutional Neural Network Visualilzer.
-tags: ["TypeScript", "Svelte", "WebAssembly", "AI"]
+tags: ["TypeScript", "Svelte", "WebAssembly", "Concurrency", "AI"]
 githubUrl: https://github.com/rudrowo/neuromancer
 liveUrl: https://neuromancer.rudro.me
 timestamp: 2025-02-24T02:39:03+00:00
