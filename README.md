@@ -65,7 +65,6 @@ export const GLOBAL = {
   // Menu items
   menu: {
     home: "/",
-    projects: "/projects",
     blog: "/blog",
   }
 };

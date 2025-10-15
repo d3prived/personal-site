@@ -1,10 +1,14 @@
 {
   "name": "personal-site",
+  "main": "./src/redirect.ts",
   "assets": {
     "directory": "./dist",
+    "binding": "ASSETS",
   },
   "compatibility_date": "2025-09-13",
   "workers_dev": false,
   "preview_urls": false,
-  "name": "personal-site",
+  "observability": {
+    "enabled": true,
+  },
 }
